@@ -25,7 +25,7 @@ export function Hero() {
           <RevealItem index={2} className="mt-6">
             <p className="max-w-[46ch] text-[17px] leading-[1.7] text-ink/72">
               Chaudhary Estate connects families and investors with verified plots,
-              homes, and commercial properties across Lahore — with honest advice
+              homes, and commercial properties across Lahore with honest advice
               at every step.
             </p>
           </RevealItem>

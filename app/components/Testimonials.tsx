@@ -6,7 +6,7 @@ import { QuoteIcon, StarIcon } from "./icons";
 const testimonials = [
   {
     quote:
-      "Chaudhary Estate helped us find our home in DHA within two weeks. Every step was transparent — no surprise fees, no runaround.",
+      "Chaudhary Estate helped us find our home in DHA within two weeks. Every step was transparent no surprise fees, no runaround.",
     name: "Ahmed R.",
     area: "DHA Phase 5, Lahore",
   },

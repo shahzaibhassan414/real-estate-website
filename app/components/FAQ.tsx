@@ -10,12 +10,12 @@ const faqs = [
   {
     question: "Do you charge any fee before showing a property?",
     answer:
-      "No. Viewings are free — you only pay agreed commission once a deal is finalized, and that's discussed upfront with no hidden charges.",
+      "No. Viewings are free you only pay agreed commission once a deal is finalized, and that's discussed upfront with no hidden charges.",
   },
   {
     question: "How do I know a listing is genuine?",
     answer:
-      "Every listing on this site is visited and verified by our team before it's published — that's what the \"Verified\" badge on each listing means.",
+      "Every listing on this site is visited and verified by our team before it's published that's what the \"Verified\" badge on each listing means.",
   },
   {
     question: "Can I schedule a viewing over WhatsApp?",
@@ -25,7 +25,7 @@ const faqs = [
   {
     question: "Do you help with registration and paperwork?",
     answer:
-      "Yes, we support you end-to-end — from viewing and negotiation through registration and transfer paperwork.",
+      "Yes, we support you end-to-end from viewing and negotiation through registration and transfer paperwork.",
   },
   {
     question: "Which areas of Lahore do you cover?",

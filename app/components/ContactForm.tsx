@@ -21,7 +21,7 @@ export function ContactForm() {
       <div className="animate-fade-in-up rounded-[4px] border border-bg/20 p-8 text-center">
         <p className="font-serif text-[20px] font-semibold text-bg">Message ready.</p>
         <p className="mt-2 text-[14px] text-bg/70">
-          We&apos;ve opened WhatsApp with your details — just hit send.
+          We&apos;ve opened WhatsApp with your details just hit send.
         </p>
       </div>
     );

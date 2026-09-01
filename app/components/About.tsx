@@ -12,7 +12,7 @@ const features = [
   },
   {
     title: "Transparent Dealing",
-    description: "No hidden fees or surprise terms — clear numbers from day one.",
+    description: "No hidden fees or surprise terms clear numbers from day one.",
   },
   {
     title: "End-to-End Support",
@@ -44,7 +44,7 @@ export function About() {
           </h2>
           <p className="mt-5 max-w-[60ch] text-[16px] leading-[1.7] text-ink/72">
             For over {yearsActive} years, Chaudhary Estate has helped families and
-            investors find the right property across Lahore — from Mozang and
+            investors find the right property across Lahore from Mozang and
             Temple Road to Bahria Town and DHA. We combine local knowledge with
             straightforward advice, so every deal is one you can trust.
           </p>
