@@ -1,9 +1,9 @@
+import Image from "next/image";
 import { yearsActive } from "@/app/lib/config";
 import { Container } from "./Container";
-import { ImageSlot } from "./ImageSlot";
 import { RevealItem } from "./RevealItem";
 import { RevealSection } from "./RevealSection";
-import { CheckBadgeIcon, PersonIcon } from "./icons";
+import { CheckBadgeIcon } from "./icons";
 
 const features = [
   {
@@ -28,12 +28,15 @@ export function About() {
   return (
     <RevealSection id="about" className="py-20">
       <Container className="grid items-center gap-12 md:grid-cols-[0.9fr_1.1fr]">
-        <ImageSlot
-          ratio="aspect-[4/5]"
-          label="About Photo"
-          icon={PersonIcon}
-          className="rounded-[5px]"
-        />
+        <div className="relative aspect-[4/5] overflow-hidden rounded-[5px]">
+          <Image
+            src="/portfolioImage.webp"
+            alt="Chaudhary Estate"
+            fill
+            sizes="(min-width: 768px) 45vw, 100vw"
+            className="object-cover"
+          />
+        </div>
 
         <div>
           <p className="text-[13px] font-bold uppercase tracking-[0.1em] text-primary-dark">

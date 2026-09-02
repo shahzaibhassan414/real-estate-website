@@ -23,9 +23,11 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 88px;
+  overflow-x: hidden;
 }
 
 body {
+  overflow-x: hidden;
   background-color: var(--color-bg);
   background-image:
     radial-gradient(circle at 50% 0%, rgba(33, 24, 21, 0.05), transparent 55%),

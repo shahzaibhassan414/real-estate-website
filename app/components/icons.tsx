@@ -130,3 +130,19 @@ export function ArrowUpIcon({ className = "" }: { className?: string }) {
     </svg>
   );
 }
+
+export function MenuIcon({ className = "" }: { className?: string }) {
+  return (
+    <svg {...iconProps(className)}>
+      <path d="M4 7h16M4 12h16M4 17h16" />
+    </svg>
+  );
+}
+
+export function CloseIcon({ className = "" }: { className?: string }) {
+  return (
+    <svg {...iconProps(className)}>
+      <path d="M18 6 6 18M6 6l12 12" />
+    </svg>
+  );
+}

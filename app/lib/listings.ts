@@ -6,6 +6,7 @@ export type Listing = {
   beds: number;
   baths: number;
   size: string;
+  image: string;
 };
 
 export const listings: Listing[] = [
@@ -17,6 +18,7 @@ export const listings: Listing[] = [
     beds: 5,
     baths: 4,
     size: "13 Marla",
+    image: "/mazangChungi.webp",
   },
   {
     id: "temple-road-triple-storey",
@@ -26,6 +28,7 @@ export const listings: Listing[] = [
     beds: 5,
     baths: 5,
     size: "4 Marla",
+    image: "/tripleStory.webp",
   },
   {
     id: "bagh-gul-begum-house",
@@ -35,6 +38,7 @@ export const listings: Listing[] = [
     beds: 4,
     baths: 3,
     size: "7 Marla",
+    image: "/house.webp",
   },
   {
     id: "modern-6-marla-house",
@@ -44,5 +48,6 @@ export const listings: Listing[] = [
     beds: 4,
     baths: 3,
     size: "6 Marla",
+    image: "/modernhouse.webp",
   },
 ];

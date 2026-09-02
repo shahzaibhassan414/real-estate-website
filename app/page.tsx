@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { officeAddress, phoneDisplay, siteUrl, whatsappNumber } from "./lib/config";
 import { About } from "./components/About";
 import { BackToTop } from "./components/BackToTop";
@@ -34,9 +35,21 @@ export default function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <Nav />
-      <main className="flex-1">
+      <div className="relative">
+        <Image
+          src="/heroSectionBackground.webp"
+          alt=""
+          fill
+          priority
+          sizes="100vw"
+          className="-z-10 object-cover"
+        />
+        <div className="absolute inset-0 -z-10 bg-gradient-to-r from-ink/92 via-ink/70 to-ink/30" />
+        <div className="absolute inset-0 -z-10 bg-gradient-to-t from-ink/70 via-ink/15 to-transparent" />
+        <Nav />
         <Hero />
+      </div>
+      <main className="flex-1">
         <StatsBar />
         <Listings />
         <Categories />

@@ -56,7 +56,7 @@ export function FAQ() {
                   type="button"
                   onClick={() => setOpenIndex(isOpen ? null : index)}
                   aria-expanded={isOpen}
-                  className="flex w-full items-center justify-between gap-4 py-5 text-left"
+                  className="flex w-full cursor-pointer items-center justify-between gap-4 py-5 text-left"
                 >
                   <span className="text-[16px] font-bold text-ink">{faq.question}</span>
                   <ChevronDownIcon

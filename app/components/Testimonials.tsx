@@ -3,6 +3,14 @@ import { RevealItem } from "./RevealItem";
 import { RevealSection } from "./RevealSection";
 import { QuoteIcon, StarIcon } from "./icons";
 
+function initials(name: string) {
+  return name
+    .split(" ")
+    .map((part) => part[0])
+    .join("")
+    .toUpperCase();
+}
+
 const testimonials = [
   {
     quote:
@@ -51,9 +59,14 @@ export function Testimonials() {
               <p className="mt-4 flex-1 text-[15px] leading-[1.7] text-ink/72">
                 &ldquo;{testimonial.quote}&rdquo;
               </p>
-              <div className="mt-5 border-t border-ink/[0.1] pt-4">
-                <p className="text-[14px] font-bold text-ink">{testimonial.name}</p>
-                <p className="text-[13px] text-ink/55">{testimonial.area}</p>
+              <div className="mt-5 flex items-center gap-3 border-t border-ink/[0.1] pt-4">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary/15 font-serif text-[15px] font-semibold text-primary-dark">
+                  {initials(testimonial.name)}
+                </div>
+                <div>
+                  <p className="text-[14px] font-bold text-ink">{testimonial.name}</p>
+                  <p className="text-[13px] text-ink/55">{testimonial.area}</p>
+                </div>
               </div>
             </RevealItem>
           ))}
