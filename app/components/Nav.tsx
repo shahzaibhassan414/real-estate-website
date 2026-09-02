@@ -50,10 +50,10 @@ export function Nav() {
 
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-40 border-b backdrop-blur-[8px] transition-[background-color,box-shadow,border-color] duration-300 ${
+      className={`fixed inset-x-0 top-0 z-40 border-b transition-[background-color,box-shadow,border-color] duration-300 ${
         solid
-          ? "border-ink/[0.14] bg-bg/80 shadow-[0_8px_24px_-16px_rgba(33,24,21,0.35)]"
-          : "border-transparent bg-gradient-to-b from-ink/35 to-transparent"
+          ? "border-ink/[0.14] bg-bg/80 shadow-[0_8px_24px_-16px_rgba(33,24,21,0.35)] backdrop-blur-[8px]"
+          : "border-transparent bg-gradient-to-b from-ink/85 via-ink/60 to-ink/20"
       }`}
     >
       <Container className="flex items-center justify-between py-4">
